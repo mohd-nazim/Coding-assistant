@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Coding Copilot</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Mohd Nazim's Coding Copilot</h1>
+<h2>Your AI Coding Assistant — Powered by Groq + FastAPI</h2>
+  <textarea id="prompt" placeholder="Enter your coding question..."></textarea>
+  <button onclick="sendPrompt()">Ask</button>
+  <div id="spinner" style="display:none; color:#6a1b9a; font-weight:bold; margin: 20px;">
+  Loading...
+</div>
+
+  <pre id="response"></pre>
+
+  <script src="script.js"></script>
+</body>
+</html>
