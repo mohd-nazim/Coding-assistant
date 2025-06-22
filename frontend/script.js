@@ -9,7 +9,7 @@ async function sendPrompt() {
   responseBox.textContent = ""; // Clear old response
 
   try {
-    const res = await fetch("http://127.0.0.1:8000/generate", {
+    const res = await fetch("https://coding-assistant-vaiy.onrender.com/generate", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
